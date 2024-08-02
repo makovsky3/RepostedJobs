@@ -3,9 +3,7 @@
   "name": "LinkedIn Job Repost Marker",
   "version": "1.0",
   "description": "Marks reposted job listings on LinkedIn with a red star",
-  "permissions": [
-    "storage"
-  ],
+  "permissions": [],
   "host_permissions": [
     "https://www.linkedin.com/*"
   ],
