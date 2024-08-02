@@ -17,3 +17,6 @@ function addRepostMarkers() {
     }
   });
 }
+/ Run the function when the page loads and whenever it's updated
+addRepostMarkers();
+new MutationObserver(addRepostMarkers).observe(document.body, {childList: true, subtree: true});
