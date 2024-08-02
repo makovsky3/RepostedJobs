@@ -1,0 +1,9 @@
+addRepostMarkers();
+new MutationObserver(addRepostMarkers).observe(document.body, {childList: true, subtree: true});
+
+// styles.css
+.repost-marker {
+  color: red;
+  margin-left: 5px;
+  font-size: 16px;
+}
